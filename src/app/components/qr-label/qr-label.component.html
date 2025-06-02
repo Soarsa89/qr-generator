@@ -1,0 +1,8 @@
+<div>
+  <input [(ngModel)]="qrText" />
+  <button (click)="generateQR()">Generar QR</button>
+</div>
+
+<div *ngIf="qrImageSrc">
+  <img [src]="qrImageSrc" alt="QR generado" />
+</div>

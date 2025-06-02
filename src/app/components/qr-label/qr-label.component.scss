@@ -1,0 +1,37 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 300px;
+
+  label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+  }
+
+  input {
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+}
+
+.etiqueta {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+  border-radius: 8px;
+
+  .info {
+    font-size: 14px;
+    p {
+      margin: 4px 0;
+    }
+  }
+}
